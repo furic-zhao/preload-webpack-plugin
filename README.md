@@ -49,7 +49,7 @@ This module requires webpack v4 and above. It also requires that you're using
 First, install the package as a dependency in your `package.json`:
 
 ```sh
-$ npm install --save-dev @fez/preload-webpack-plugin
+$ npm install --save-dev @furic-zhao/preload-webpack-plugin
 ```
 
 ## Usage
@@ -57,7 +57,7 @@ $ npm install --save-dev @fez/preload-webpack-plugin
 In your webpack config, `require()` the preload plugin as follows:
 
 ```js
-const PreloadWebpackPlugin = require("@fez/preload-webpack-plugin");
+const PreloadWebpackPlugin = require("@furic-zhao/preload-webpack-plugin");
 ```
 
 and finally, add the plugin to your webpack configuration's `plugins` array after `HtmlWebpackPlugin`:
